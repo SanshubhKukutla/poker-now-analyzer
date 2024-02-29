@@ -11,7 +11,7 @@ def clean_data(csv_file):
     return data
 
 if __name__ == "__main__":
-    csv_file = "/Users/sanshubhkukutla/Documents/projects/PokerBot/poker-now-analyzer/poker_now_log_pglJMTPtFPpicExKgMjCS7nqV copyBaseDataCopy.csv"  
+    csv_file = "/Users/sanshubhkukutla/Documents/projects/PokerBot/poker-now-analyzer/TestData.csv"  
     cleaned_data = clean_data(csv_file)
 
     cleaned_data.to_csv("data/cleaned_data.csv", index=False)
